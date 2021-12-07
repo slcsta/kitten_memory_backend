@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Score.create([
+    {username: "sarah", time: "01:23"},
+    {username: "elmo", time: "01:15"},
+    {username: "ernie", time: "01:33"}
+])
