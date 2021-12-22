@@ -6,8 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Score.destroy_all
+
 Score.create([
-    {username: "sarah", time: "01:23"},
-    {username: "elmo", time: "01:15"},
-    {username: "ernie", time: "01:33"}
+    {username: "sarah", turns: "11"},
+    {username: "elmo", turns: "10"},
+    {username: "ernie", turns: "14"}
 ])
